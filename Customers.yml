@@ -1,2 +1,10 @@
 server:
   port: 0
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  h2:
+    console:
+      enabled: true
